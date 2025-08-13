@@ -1,0 +1,4 @@
+C:/VS_projects/Compilation/FightClub/build/CMakeFiles/FightClubGame.dir
+C:/VS_projects/Compilation/FightClub/build/CMakeFiles/MathLib.dir
+C:/VS_projects/Compilation/FightClub/build/CMakeFiles/GameLib.dir
+C:/VS_projects/Compilation/FightClub/build/CMakeFiles/ALL_BUILD.dir

@@ -52,7 +52,7 @@ def get_cmake_command(action):
         "verbose": "--verbose" if Config.VERBOSE else "",
         }
 
-    if action == Action.Generate:
+    if action == Action.GENERATE:
         return f'cmake .. {cmake_flags["generator"]} {cmake_flags["platform"]} {cmake_flags["fresh"]}'
     elif action in (Action.BUILD_DEBUG, Action.BUILD_RELEASE):
         configuration = (
@@ -72,14 +72,13 @@ def run_command(command):
 def generate_project_files():
     if not os.path.exists(Config.BUILD_FOLDER):
         os.makedirs(Config.BUILD_FOLDER)
-        print(f"Generated project files with comamnd: {command}")
 
     os.chdir(Config.BUILD_FOLDER)
     command = get_cmake_command(Action.GENERATE)
     print(f"Generated project files with command: {command}")
 
     if run_command(command):
-        print("Project files generated succeddfully.")
+        print("Project files generated successfully.")
     else:
         print("Failed to generate project files.")
     os.chdir("..")
@@ -87,7 +86,7 @@ def generate_project_files():
 
 def build_project(configuration=Configuration.Release):
     if not os.path.exists(Config.BUILD_FOLDER):
-        print(f"{Config.Build_FOLDER} folder does not exist. Please generate project files first.")
+        print(f"{Config.BUILD_FOLDER} folder does not exist. Please generate project files first.")
         return
         
     os.chdir(Config.BUILD_FOLDER)
