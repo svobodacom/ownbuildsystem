@@ -24,7 +24,7 @@ events:
       The output was:
       0
       ╨Æ╨╡╤Ç╤ü╨╕╤Å MSBuild 17.14.18+a338add32 ╨┤╨╗╤Å .NET Framework
-      ╨í╨▒╨╛╤Ç╨║╨░ ╨╜╨░╤ç╨░╤é╨░ 13.08.2025 10:00:07.
+      ╨í╨▒╨╛╤Ç╨║╨░ ╨╜╨░╤ç╨░╤é╨░ 22.08.2025 17:36:18.
       
       ╨ƒ╤Ç╨╛╨╡╨║╤é "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj" ╨▓ ╤â╨╖╨╗╨╡ 1 (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
       PrepareForBuild:
@@ -62,7 +62,7 @@ events:
           ╨ƒ╤Ç╨╡╨┤╤â╨┐╤Ç╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
           ╨₧╤ê╨╕╨▒╨╛╨║: 0
       
-      ╨ƒ╤Ç╨╛╤ê╨╗╨╛ ╨▓╤Ç╨╡╨╝╨╡╨╜╨╕ 00:00:01.50
+      ╨ƒ╤Ç╨╛╤ê╨╗╨╛ ╨▓╤Ç╨╡╨╝╨╡╨╜╨╕ 00:00:01.10
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -88,7 +88,7 @@ events:
       The output was:
       0
       ╨Æ╨╡╤Ç╤ü╨╕╤Å MSBuild 17.14.18+a338add32 ╨┤╨╗╤Å .NET Framework
-      ╨í╨▒╨╛╤Ç╨║╨░ ╨╜╨░╤ç╨░╤é╨░ 13.08.2025 10:00:08.
+      ╨í╨▒╨╛╤Ç╨║╨░ ╨╜╨░╤ç╨░╤é╨░ 22.08.2025 17:36:19.
       
       ╨ƒ╤Ç╨╛╨╡╨║╤é "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨▓ ╤â╨╖╨╗╨╡ 1 (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
       PrepareForBuild:
@@ -126,7 +126,7 @@ events:
           ╨ƒ╤Ç╨╡╨┤╤â╨┐╤Ç╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
           ╨₧╤ê╨╕╨▒╨╛╨║: 0
       
-      ╨ƒ╤Ç╨╛╤ê╨╗╨╛ ╨▓╤Ç╨╡╨╝╨╡╨╜╨╕ 00:00:00.91
+      ╨ƒ╤Ç╨╛╤ê╨╗╨╛ ╨▓╤Ç╨╡╨╝╨╡╨╜╨╕ 00:00:00.88
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -145,8 +145,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/VS_projects/Compilation/FightClub/build/CMakeFiles/CMakeScratch/TryCompile-goetcg"
-      binary: "C:/VS_projects/Compilation/FightClub/build/CMakeFiles/CMakeScratch/TryCompile-goetcg"
+      source: "C:/VS_projects/Compilation/FightClub/build/CMakeFiles/CMakeScratch/TryCompile-cnf0xy"
+      binary: "C:/VS_projects/Compilation/FightClub/build/CMakeFiles/CMakeScratch/TryCompile-cnf0xy"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -155,49 +155,49 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/VS_projects/Compilation/FightClub/build/CMakeFiles/CMakeScratch/TryCompile-goetcg'
+        Change Dir: 'C:/VS_projects/Compilation/FightClub/build/CMakeFiles/CMakeScratch/TryCompile-cnf0xy'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b6fe2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_98fbc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         ╨Æ╨╡╤Ç╤ü╨╕╤Å MSBuild 17.14.18+a338add32 ╨┤╨╗╤Å .NET Framework
-        ╨í╨▒╨╛╤Ç╨║╨░ ╨╜╨░╤ç╨░╤é╨░ 13.08.2025 10:00:10.
+        ╨í╨▒╨╛╤Ç╨║╨░ ╨╜╨░╤ç╨░╤é╨░ 22.08.2025 17:36:20.
         
-        ╨ƒ╤Ç╨╛╨╡╨║╤é "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-goetcg\\cmTC_b6fe2.vcxproj" ╨▓ ╤â╨╖╨╗╨╡ 1 (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
+        ╨ƒ╤Ç╨╛╨╡╨║╤é "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cnf0xy\\cmTC_98fbc.vcxproj" ╨▓ ╤â╨╖╨╗╨╡ 1 (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
         PrepareForBuild:
-          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "cmTC_b6fe2.dir\\Debug\\".
+          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "cmTC_98fbc.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-goetcg\\Debug\\".
-          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "cmTC_b6fe2.dir\\Debug\\cmTC_b6fe2.tlog\\".
+          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cnf0xy\\Debug\\".
+          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "cmTC_98fbc.dir\\Debug\\cmTC_98fbc.tlog\\".
         InitializeBuildStatus:
-          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_b6fe2.dir\\Debug\\cmTC_b6fe2.tlog\\unsuccessfulbuild", ╤é╨░╨║ ╨║╨░╨║ ╨▒╤ï╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
-          ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "cmTC_b6fe2.dir\\Debug\\cmTC_b6fe2.tlog\\unsuccessfulbuild".
+          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_98fbc.dir\\Debug\\cmTC_98fbc.tlog\\unsuccessfulbuild", ╤é╨░╨║ ╨║╨░╨║ ╨▒╤ï╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "cmTC_98fbc.dir\\Debug\\cmTC_98fbc.tlog\\unsuccessfulbuild".
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Release"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6fe2.dir\\Debug\\\\" /Fd"cmTC_b6fe2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_98fbc.dir\\Debug\\\\" /Fd"cmTC_98fbc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /I"C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6fe2.dir\\Debug\\\\" /Fd"cmTC_b6fe2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          cl /c /I"C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_98fbc.dir\\Debug\\\\" /Fd"cmTC_98fbc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-goetcg\\Debug\\cmTC_b6fe2.exe" /INCREMENTAL /ILK:"cmTC_b6fe2.dir\\Debug\\cmTC_b6fe2.ilk" /NOLOGO /LIBPATH:"C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/VS_projects/Compilation/FightClub/build/CMakeFiles/CMakeScratch/TryCompile-goetcg/Debug/cmTC_b6fe2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VS_projects/Compilation/FightClub/build/CMakeFiles/CMakeScratch/TryCompile-goetcg/Debug/cmTC_b6fe2.lib" /MACHINE:X64  /machine:x64 cmTC_b6fe2.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_b6fe2.vcxproj -> C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-goetcg\\Debug\\cmTC_b6fe2.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cnf0xy\\Debug\\cmTC_98fbc.exe" /INCREMENTAL /ILK:"cmTC_98fbc.dir\\Debug\\cmTC_98fbc.ilk" /NOLOGO /LIBPATH:"C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/VS_projects/Compilation/FightClub/build/CMakeFiles/CMakeScratch/TryCompile-cnf0xy/Debug/cmTC_98fbc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VS_projects/Compilation/FightClub/build/CMakeFiles/CMakeScratch/TryCompile-cnf0xy/Debug/cmTC_98fbc.lib" /MACHINE:X64  /machine:x64 cmTC_98fbc.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_98fbc.vcxproj -> C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cnf0xy\\Debug\\cmTC_98fbc.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-goetcg\\Debug\\cmTC_b6fe2.exe" "C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\bin" "cmTC_b6fe2.dir\\Debug\\cmTC_b6fe2.tlog\\cmTC_b6fe2.write.1u.tlog" "cmTC_b6fe2.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cnf0xy\\Debug\\cmTC_98fbc.exe" "C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\bin" "cmTC_98fbc.dir\\Debug\\cmTC_98fbc.tlog\\cmTC_98fbc.write.1u.tlog" "cmTC_98fbc.dir\\Debug\\vcpkg.applocal.log"
           'pwsh.exe' is not recognized as an internal or external command,
           operable program or batch file.
-          ╨Æ╤ï╤à╨╛╨┤ ╨╕╨╖ ╨║╨╛╨╝╨░╨╜╨┤╤ï "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-goetcg\\Debug\\cmTC_b6fe2.exe" "C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\bin" "cmTC_b6fe2.dir\\Debug\\cmTC_b6fe2.tlog\\cmTC_b6fe2.write.1u.tlog" "cmTC_b6fe2.dir\\Debug\\vcpkg.applocal.log"" ╤ü ╨║╨╛╨┤╨╛╨╝ 9009.
-          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-goetcg\\Debug\\cmTC_b6fe2.exe" "C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\bin" "cmTC_b6fe2.dir\\Debug\\cmTC_b6fe2.tlog\\cmTC_b6fe2.write.1u.tlog" "cmTC_b6fe2.dir\\Debug\\vcpkg.applocal.log"
+          ╨Æ╤ï╤à╨╛╨┤ ╨╕╨╖ ╨║╨╛╨╝╨░╨╜╨┤╤ï "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cnf0xy\\Debug\\cmTC_98fbc.exe" "C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\bin" "cmTC_98fbc.dir\\Debug\\cmTC_98fbc.tlog\\cmTC_98fbc.write.1u.tlog" "cmTC_98fbc.dir\\Debug\\vcpkg.applocal.log"" ╤ü ╨║╨╛╨┤╨╛╨╝ 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cnf0xy\\Debug\\cmTC_98fbc.exe" "C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\bin" "cmTC_98fbc.dir\\Debug\\cmTC_98fbc.tlog\\cmTC_98fbc.write.1u.tlog" "cmTC_98fbc.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          ╨ñ╨░╨╣╨╗ "cmTC_b6fe2.dir\\Debug\\cmTC_b6fe2.tlog\\unsuccessfulbuild" ╤â╨┤╨░╨╗╤Å╨╡╤é╤ü╤Å.
-          ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "cmTC_b6fe2.dir\\Debug\\cmTC_b6fe2.tlog\\cmTC_b6fe2.lastbuildstate".
-        ╨í╨▒╨╛╤Ç╨║╨░ ╨┐╤Ç╨╛╨╡╨║╤é╨░ "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-goetcg\\cmTC_b6fe2.vcxproj" ╨╖╨░╨▓╨╡╤Ç╤ê╨╡╨╜╨░ (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
+          ╨ñ╨░╨╣╨╗ "cmTC_98fbc.dir\\Debug\\cmTC_98fbc.tlog\\unsuccessfulbuild" ╤â╨┤╨░╨╗╤Å╨╡╤é╤ü╤Å.
+          ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "cmTC_98fbc.dir\\Debug\\cmTC_98fbc.tlog\\cmTC_98fbc.lastbuildstate".
+        ╨í╨▒╨╛╤Ç╨║╨░ ╨┐╤Ç╨╛╨╡╨║╤é╨░ "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cnf0xy\\cmTC_98fbc.vcxproj" ╨╖╨░╨▓╨╡╤Ç╤ê╨╡╨╜╨░ (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
         
         ╨í╨▒╨╛╤Ç╨║╨░ ╤â╤ü╨┐╨╡╤ê╨╜╨╛ ╨╖╨░╨▓╨╡╤Ç╤ê╨╡╨╜╨░.
             ╨ƒ╤Ç╨╡╨┤╤â╨┐╤Ç╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
             ╨₧╤ê╨╕╨▒╨╛╨║: 0
         
-        ╨ƒ╤Ç╨╛╤ê╨╗╨╛ ╨▓╤Ç╨╡╨╝╨╡╨╜╨╕ 00:00:00.87
+        ╨ƒ╤Ç╨╛╤ê╨╗╨╛ ╨▓╤Ç╨╡╨╝╨╡╨╜╨╕ 00:00:00.91
         
       exitCode: 0
   -
@@ -209,8 +209,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/VS_projects/Compilation/FightClub/build/CMakeFiles/CMakeScratch/TryCompile-e0wg1u"
-      binary: "C:/VS_projects/Compilation/FightClub/build/CMakeFiles/CMakeScratch/TryCompile-e0wg1u"
+      source: "C:/VS_projects/Compilation/FightClub/build/CMakeFiles/CMakeScratch/TryCompile-4arhpt"
+      binary: "C:/VS_projects/Compilation/FightClub/build/CMakeFiles/CMakeScratch/TryCompile-4arhpt"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -219,49 +219,49 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/VS_projects/Compilation/FightClub/build/CMakeFiles/CMakeScratch/TryCompile-e0wg1u'
+        Change Dir: 'C:/VS_projects/Compilation/FightClub/build/CMakeFiles/CMakeScratch/TryCompile-4arhpt'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_69df6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_725b4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         ╨Æ╨╡╤Ç╤ü╨╕╤Å MSBuild 17.14.18+a338add32 ╨┤╨╗╤Å .NET Framework
-        ╨í╨▒╨╛╤Ç╨║╨░ ╨╜╨░╤ç╨░╤é╨░ 13.08.2025 10:00:11.
+        ╨í╨▒╨╛╤Ç╨║╨░ ╨╜╨░╤ç╨░╤é╨░ 22.08.2025 17:36:22.
         
-        ╨ƒ╤Ç╨╛╨╡╨║╤é "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0wg1u\\cmTC_69df6.vcxproj" ╨▓ ╤â╨╖╨╗╨╡ 1 (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
+        ╨ƒ╤Ç╨╛╨╡╨║╤é "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4arhpt\\cmTC_725b4.vcxproj" ╨▓ ╤â╨╖╨╗╨╡ 1 (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
         PrepareForBuild:
-          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "cmTC_69df6.dir\\Debug\\".
+          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "cmTC_725b4.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0wg1u\\Debug\\".
-          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "cmTC_69df6.dir\\Debug\\cmTC_69df6.tlog\\".
+          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4arhpt\\Debug\\".
+          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "cmTC_725b4.dir\\Debug\\cmTC_725b4.tlog\\".
         InitializeBuildStatus:
-          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_69df6.dir\\Debug\\cmTC_69df6.tlog\\unsuccessfulbuild", ╤é╨░╨║ ╨║╨░╨║ ╨▒╤ï╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
-          ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "cmTC_69df6.dir\\Debug\\cmTC_69df6.tlog\\unsuccessfulbuild".
+          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_725b4.dir\\Debug\\cmTC_725b4.tlog\\unsuccessfulbuild", ╤é╨░╨║ ╨║╨░╨║ ╨▒╤ï╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "cmTC_725b4.dir\\Debug\\cmTC_725b4.tlog\\unsuccessfulbuild".
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Release"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_69df6.dir\\Debug\\\\" /Fd"cmTC_69df6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_725b4.dir\\Debug\\\\" /Fd"cmTC_725b4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /I"C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_69df6.dir\\Debug\\\\" /Fd"cmTC_69df6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /I"C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_725b4.dir\\Debug\\\\" /Fd"cmTC_725b4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0wg1u\\Debug\\cmTC_69df6.exe" /INCREMENTAL /ILK:"cmTC_69df6.dir\\Debug\\cmTC_69df6.ilk" /NOLOGO /LIBPATH:"C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/VS_projects/Compilation/FightClub/build/CMakeFiles/CMakeScratch/TryCompile-e0wg1u/Debug/cmTC_69df6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VS_projects/Compilation/FightClub/build/CMakeFiles/CMakeScratch/TryCompile-e0wg1u/Debug/cmTC_69df6.lib" /MACHINE:X64  /machine:x64 cmTC_69df6.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_69df6.vcxproj -> C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0wg1u\\Debug\\cmTC_69df6.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4arhpt\\Debug\\cmTC_725b4.exe" /INCREMENTAL /ILK:"cmTC_725b4.dir\\Debug\\cmTC_725b4.ilk" /NOLOGO /LIBPATH:"C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/VS_projects/Compilation/FightClub/build/CMakeFiles/CMakeScratch/TryCompile-4arhpt/Debug/cmTC_725b4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VS_projects/Compilation/FightClub/build/CMakeFiles/CMakeScratch/TryCompile-4arhpt/Debug/cmTC_725b4.lib" /MACHINE:X64  /machine:x64 cmTC_725b4.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_725b4.vcxproj -> C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4arhpt\\Debug\\cmTC_725b4.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0wg1u\\Debug\\cmTC_69df6.exe" "C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\bin" "cmTC_69df6.dir\\Debug\\cmTC_69df6.tlog\\cmTC_69df6.write.1u.tlog" "cmTC_69df6.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4arhpt\\Debug\\cmTC_725b4.exe" "C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\bin" "cmTC_725b4.dir\\Debug\\cmTC_725b4.tlog\\cmTC_725b4.write.1u.tlog" "cmTC_725b4.dir\\Debug\\vcpkg.applocal.log"
           'pwsh.exe' is not recognized as an internal or external command,
           operable program or batch file.
-          ╨Æ╤ï╤à╨╛╨┤ ╨╕╨╖ ╨║╨╛╨╝╨░╨╜╨┤╤ï "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0wg1u\\Debug\\cmTC_69df6.exe" "C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\bin" "cmTC_69df6.dir\\Debug\\cmTC_69df6.tlog\\cmTC_69df6.write.1u.tlog" "cmTC_69df6.dir\\Debug\\vcpkg.applocal.log"" ╤ü ╨║╨╛╨┤╨╛╨╝ 9009.
-          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0wg1u\\Debug\\cmTC_69df6.exe" "C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\bin" "cmTC_69df6.dir\\Debug\\cmTC_69df6.tlog\\cmTC_69df6.write.1u.tlog" "cmTC_69df6.dir\\Debug\\vcpkg.applocal.log"
+          ╨Æ╤ï╤à╨╛╨┤ ╨╕╨╖ ╨║╨╛╨╝╨░╨╜╨┤╤ï "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4arhpt\\Debug\\cmTC_725b4.exe" "C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\bin" "cmTC_725b4.dir\\Debug\\cmTC_725b4.tlog\\cmTC_725b4.write.1u.tlog" "cmTC_725b4.dir\\Debug\\vcpkg.applocal.log"" ╤ü ╨║╨╛╨┤╨╛╨╝ 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\src\\vcpkg\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4arhpt\\Debug\\cmTC_725b4.exe" "C:\\src\\vcpkg\\vcpkg\\installed\\x64-windows\\bin" "cmTC_725b4.dir\\Debug\\cmTC_725b4.tlog\\cmTC_725b4.write.1u.tlog" "cmTC_725b4.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          ╨ñ╨░╨╣╨╗ "cmTC_69df6.dir\\Debug\\cmTC_69df6.tlog\\unsuccessfulbuild" ╤â╨┤╨░╨╗╤Å╨╡╤é╤ü╤Å.
-          ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "cmTC_69df6.dir\\Debug\\cmTC_69df6.tlog\\cmTC_69df6.lastbuildstate".
-        ╨í╨▒╨╛╤Ç╨║╨░ ╨┐╤Ç╨╛╨╡╨║╤é╨░ "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0wg1u\\cmTC_69df6.vcxproj" ╨╖╨░╨▓╨╡╤Ç╤ê╨╡╨╜╨░ (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
+          ╨ñ╨░╨╣╨╗ "cmTC_725b4.dir\\Debug\\cmTC_725b4.tlog\\unsuccessfulbuild" ╤â╨┤╨░╨╗╤Å╨╡╤é╤ü╤Å.
+          ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "cmTC_725b4.dir\\Debug\\cmTC_725b4.tlog\\cmTC_725b4.lastbuildstate".
+        ╨í╨▒╨╛╤Ç╨║╨░ ╨┐╤Ç╨╛╨╡╨║╤é╨░ "C:\\VS_projects\\Compilation\\FightClub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4arhpt\\cmTC_725b4.vcxproj" ╨╖╨░╨▓╨╡╤Ç╤ê╨╡╨╜╨░ (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
         
         ╨í╨▒╨╛╤Ç╨║╨░ ╤â╤ü╨┐╨╡╤ê╨╜╨╛ ╨╖╨░╨▓╨╡╤Ç╤ê╨╡╨╜╨░.
             ╨ƒ╤Ç╨╡╨┤╤â╨┐╤Ç╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
             ╨₧╤ê╨╕╨▒╨╛╨║: 0
         
-        ╨ƒ╤Ç╨╛╤ê╨╗╨╛ ╨▓╤Ç╨╡╨╝╨╡╨╜╨╕ 00:00:00.87
+        ╨ƒ╤Ç╨╛╤ê╨╗╨╛ ╨▓╤Ç╨╡╨╝╨╡╨╜╨╕ 00:00:01.01
         
       exitCode: 0
 ...
