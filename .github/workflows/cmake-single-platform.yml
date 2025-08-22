@@ -29,5 +29,5 @@ jobs:
 
     - name: Build
       # Build your program with the given configuration
-      run: cmake --config ${{env.BUILD_TYPE}}
+      run: cmake --build .
 
