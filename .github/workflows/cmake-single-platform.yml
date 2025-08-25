@@ -33,7 +33,7 @@ jobs:
       run: cmake --build D:/a/ownbuildsystem/ownbuildsystem/build --target ${{env.TARGET}}
 
     - name: Archive Artifactes
-      run: Compress-Archive -Path build/* -DestinationPath ${{env.TARGET}}-${{env.BUILD_TYPE}}.zip
+      run: Compress-Archive -Path build/bin/* -DestinationPath ${{env.TARGET}}-${{env.BUILD_TYPE}}.zip
 
     - name: Upload Artifactes
       uses: actions/upload-artifact@v4
