@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
+cmake_policy(SET CMP0091 NEW)
 set(PROJECT_NAME FightClubGame)
 project(${PROJECT_NAME} VERSION 1.0.0)
 
@@ -23,19 +24,24 @@ set(MATH_INCLUDES Math.h)
 set(DLL_GAME_SOURCES Character.cpp Weapon.cpp)
 set(DLL_GAME_INCLUDES Character.h Weapon.h)
 
+#find libs
+find_package(nlohmann_json REQUIRED)
+
 # targets
 add_executable(${PROJECT_NAME} ${SOURCES})
 add_library(MathLib STATIC ${MATH_SOURCES} ${MATH_INCLUDES})
 add_library(GameLib SHARED ${DLL_GAME_SOURCES} ${DLL_GAME_INCLUDES})
 
+add_executable(ChuckNorrisJokes ChuckNorrisJokes/main.cpp)
+
 #preprocessing
 target_compile_definitions(GameLib PRIVATE _EXPORTING)
 target_compile_definitions(${PROJECT_NAME} PUBLIC _IMPORTING)
 
-#link the library
+#link the libraries
 target_link_libraries(GameLib PRIVATE MathLib)
 target_link_libraries(${PROJECT_NAME} PRIVATE GameLib)
-#target_link_libraries(${PROJECT_NAME} PRIVATE MathLib)
+target_link_libraries(ChuckNorrisJokes nlohmann_json::nlohmann_json)
 
 # .lib/.dll/.exe куда класть
 set_target_properties(MathLib PROPERTIES ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
