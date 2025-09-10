@@ -26,6 +26,7 @@ set(DLL_GAME_INCLUDES Character.h Weapon.h)
 
 #find libs
 find_package(nlohmann_json REQUIRED)
+find_package(GTest REQUIRED)
 
 # targets
 add_executable(${PROJECT_NAME} ${SOURCES})
@@ -41,7 +42,9 @@ target_compile_definitions(${PROJECT_NAME} PUBLIC _IMPORTING)
 #link the libraries
 target_link_libraries(GameLib PRIVATE MathLib)
 target_link_libraries(${PROJECT_NAME} PRIVATE GameLib)
-target_link_libraries(ChuckNorrisJokes nlohmann_json::nlohmann_json)
+target_link_libraries(ChuckNorrisJokes PRIVATE MathLib)
+target_link_libraries(ChuckNorrisJokes PRIVATE gtest::gtest)
+target_link_libraries(ChuckNorrisJokes PRIVATE nlohmann_json::nlohmann_json)
 
 # .lib/.dll/.exe куда класть
 set_target_properties(MathLib PROPERTIES ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
